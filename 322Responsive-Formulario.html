@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>3.2.1 Bootstrap: Formulario</title>
+</head>
+<body>
+<div class="container">
+<h1>Formulario</h1>
+<hr>
+<form class="form-horizontal">
+    <div class="form-group">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="inputNombre" class="control-label">Nombre</label>
+            <input type="text" class="form-control" id="inputNombre">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <label for="inputApellidos" class="control-label">Apellidos</label>
+            <input type="text" class="form-control" id="inputApellidos">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div >
+                <label class="control-label">Sexo</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="opciones" id="opciones_1" value="opcion_1" checked>Femenino&nbsp;&nbsp; 
+                    </label>
+                    <label>
+                        <input type="radio" name="opciones" id="opciones_2" value="opcion_2">Masculino
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div>
+                <label for="inputApellidos" class="control-label">Nivel Escolar</label>
+                <select class="form-control">
+                    <option>Superior</option>
+                    <option>Media Superior</option>
+                    <option>Media Basica</option>
+                    <option>Basica</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="form-group">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <label for="inputApellidos" class="control-label">Perfil</label>
+			<textarea class="form-control"></textarea>
+		</div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <button type="submit" class="btn btn-danger">Enviar</button>
+        </div>
+    </div>
+</form>
+</div>
+</body>
+</html>
